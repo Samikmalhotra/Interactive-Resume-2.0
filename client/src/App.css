@@ -7,11 +7,26 @@
     font-display: swap;
 }
 
+body{
+    color: white;
+    background-color: #090021;
+}
+.App{
+    max-width: 99vw;
+    overflow-x: hidden;
+}
+.container-div{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
 .landing{
     background-image: url('../src/img/bg.jpg');
     background-size: cover;
     background-position: center;
 }
+
 .name-title h2{
     font-family: 'POLYA';
     font-size: 6rem !important;
@@ -31,7 +46,6 @@
     0 0 151px #000;
     backdrop-filter: blur(2px);
     z-index: 5;
-
 }
 .tagline h2{
     position: absolute;
@@ -42,8 +56,37 @@
     font-size: 3rem;
     z-index: 5;
 }
-.App{
-    max-width: 99vw;
-    overflow-x: hidden;
+.intro{
+    z-index: 5;
+}
+.hello-world{
+    padding-top: 10vh;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+.intro-name{
+    font-size: 5rem;
+    font-weight: bold;
+    color:#E94560;
+    text-shadow: 8px 8px 8px black;
+}
+.intro-tagline{
+    font-size: 5rem;
+}
+.intro-text{
+    font-size: 1.4rem;
+    width: 50vw;
+}
+.section-heading{
+    font-size: 2.5rem;
+    padding-top: 7vh;
+    color: #E94560;
+}
+.section-quote{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.full-page{
+    overflow-y: scroll;
 }
 

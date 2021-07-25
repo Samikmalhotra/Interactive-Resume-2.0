@@ -1,10 +1,13 @@
 .timeline {
   position: relative;
-  width: 660px;
   margin: 0 auto;
   margin-top: 20px;
-  padding: 1em 0;
+  padding: 1rem 0;
   list-style-type: none;
+  max-height: 80vh;
+  overflow-y: scroll;
+  width: 70vw;
+  
 }
 
 .timeline:before {
@@ -65,7 +68,7 @@
   background: rgb(248,248,248);
   padding: 6px 10px;
   border-radius: 5px;
-  
+  color: black;
   font-weight: 600;
   text-align: left;
 }

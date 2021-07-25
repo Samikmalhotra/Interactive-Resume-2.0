@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline } from 'react-gsap';
+import { Container } from 'react-bootstrap';
 
 const Sticky2Styled = styled.div`
   overflow: hidden;
@@ -14,6 +15,7 @@ const Sticky2Styled = styled.div`
     height: 100%;
     background-color: black;
     opacity: 0.6;
+    z-index: 0;
  }
   .sticky, .sticky2 {
     height: 100vh;
@@ -86,9 +88,14 @@ const LandingLayout = () => (
                   />
                   <Timeline
                   target={
-                    <div className="tagline">
-                      <h2>I am a MERN Stack Developer</h2>
-                    </div>
+                    <div className='intro'>
+                      <Container>
+        <p className="hello-world">Hello World! My name is</p>
+        <h2 className='intro-name'>Samik Malhotra</h2>
+        <h2 className='intro-tagline'>I love learning new things!</h2>
+        <p className="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
+        </Container>
+      </div>
                   }
                 >
                   <Tween

@@ -1,29 +1,21 @@
 import React from 'react'
+import { Fragment } from 'react'
 import {Row, Col} from 'react-bootstrap'
+import '../css/profile.css'
 const Profile = () => {
     return (
+        <Fragment>
+          <h2 className="section-heading">About Me</h2>
+          <h3 className="section-quote">"No Pressure, No Diamonds"</h3>
+          <hr/>
         <Row>
-        <Col lg={4} className="text-left">
-          <h4 className="about-me-details-heading">About Me</h4>
-          <p className="about-me-details-text" >
-            I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time.
-          </p>
-        </Col>
-        <Col lg={4} className="text-left" >
-          <img src='' className="profile-photo" alt=''/>
-        </Col>
-        <Col lg={4} className="text-left" >
-          <h4 className="about-me-details-heading">Details</h4>
-          <p className="about-me-details-text">
-          <b>Name:</b><br />
-          Samik Malhotra<br />
-          <b>Age:</b><br />
-          18<br />
-          <b>Location:</b><br />
-          Delhi, India, Earth<br />
-          </p>
-        </Col>
-      </Row>
+          <Col lg={7} md={7} xs={12} className='profile-text'> 
+          Hi, I'm Samik Malhotra (aka Sam), a sophomore at Thapar Institute of Engineering and Technology. I am a developer from India, currently, I'm a member of ACM-Thapar and Creative-Computing-Society . Beside's programming, I enjoy skateboarding, football, travelling and reading novels
+          </Col>
+          <Col lg={5} md={5} className='profile-photo'></Col>
+        </Row>
+        
+      </Fragment>
     )
 }
 

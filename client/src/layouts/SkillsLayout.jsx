@@ -5,6 +5,8 @@ import { Tween, Timeline } from 'react-gsap';
 import Profile from '../components/Profile';
 import Workex from '../components/Workex';
 import Skills from '../components/Skills'
+import Container from '../components/Container';
+
 const SectionWipes2Styled = styled.div`
   overflow: hidden;
   #pinContainer {
@@ -26,11 +28,11 @@ const SectionWipes2Styled = styled.div`
   }
   
   .panel.color-1 {
-    background-color: #441066;
+    background-color: #090021;
   }
   
   .panel.color-2 {
-    background-color: #090021;
+    background-color: #1A1A2E;
   }
   
 
@@ -47,9 +49,11 @@ const SkillsLayout = () => (
         <Timeline
           wrapper={<div id="pinContainer" />}
         >
-          <section className="panel color-1"><>
+          <section className="panel color-1">
+            <Container>
               <Profile/>
-            </></section>
+            </Container>
+            </section>
           <Tween
             from={{ x: '-100%' }}
             to={{ x: '0%' }}
@@ -63,7 +67,9 @@ const SkillsLayout = () => (
             to={{ x: '0%' }}
           >
             <section className="panel color-1">
+              <Container>
               <Skills/>
+              </Container>
             </section>
           </Tween>
           <Tween
