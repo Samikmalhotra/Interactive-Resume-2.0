@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'POLYA';
+    src: url('font/POLYARegular-Regular.woff2') format('woff2'),
+        url('font/POLYARegular-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    max-width: 99vw;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landing{
+    background-image: url('../src/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.landing h2{
+    font-family: 'POLYA';
+    font-weight: 599;
+    backdrop-filter: blur(1px);
+    font-size: 2rem;
+    border-radius: 10px;
+
+    padding-top: 0;
+    margin: 0;
+
+    /* color:white;
+    width: 100%;
+  text-shadow:  black;
+  stroke-width: 5px; */
+        color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: 0.1em;
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
