@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline } from 'react-gsap';
-
+import Profile from '../components/Profile';
+import Workex from '../components/Workex';
+import Skills from '../components/Skills'
 const SectionWipes2Styled = styled.div`
   overflow: hidden;
   #pinContainer {
@@ -45,18 +47,24 @@ const SkillsLayout = () => (
         <Timeline
           wrapper={<div id="pinContainer" />}
         >
-          <section className="panel color-1"><span>Panel</span></section>
+          <section className="panel color-1"><>
+              <Profile/>
+            </></section>
           <Tween
             from={{ x: '-100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel color-2"><>Panel</></section>
+            <section className="panel color-2">
+              <Workex/>
+            </section>
           </Tween>
           <Tween
             from={{ x: '100%' }}
             to={{ x: '0%' }}
           >
-            <section className="panel color-1"><span>Panel</span></section>
+            <section className="panel color-1">
+              <Skills/>
+            </section>
           </Tween>
           <Tween
             from={{ y: '-100%' }}

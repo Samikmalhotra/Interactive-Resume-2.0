@@ -78,6 +78,7 @@ const LandingLayout = () => (
                   target={
                     <div className="name-title">
                       <h2>Samik Malhotra</h2>
+                      <hr />
                     </div>
                   }
                 >
@@ -86,7 +87,9 @@ const LandingLayout = () => (
                     to={{ opacity: 1 }}
                   />
                   <Tween
-                    to={{ y: '-110%', scale: 4 }}
+                    to={{ y: '-110%',
+                     scale: 4
+                     }}
                   />
                 </Timeline>
               </Timeline>
