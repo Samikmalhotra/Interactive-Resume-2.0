@@ -1,0 +1,10 @@
+.devicon{
+    font-size: 4rem;
+    filter: drop-shadow(8px 8px 10px black);
+}
+.skills .row{
+    text-align: center;
+}
+.skills .col-lg-2{
+    min-height: 20vh !important;
+}

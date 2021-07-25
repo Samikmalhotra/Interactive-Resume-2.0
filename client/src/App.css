@@ -7,11 +7,6 @@
     font-display: swap;
 }
 
-.App{
-    max-width: 99vw;
-    overflow-x: hidden;
-}
-
 .landing{
     background-image: url('../src/img/bg.jpg');
     background-size: cover;
@@ -23,20 +18,28 @@
     backdrop-filter: blur(1px);
     font-size: 2rem;
     border-radius: 10px;
-
+    /* box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.644); */
     padding-top: 0;
     margin: 0;
+    /* filter: drop-shadow(8px 8px 8px black); */
+    /* background-image: linear-gradient(to right, white, cyan); */
+    -webkit-background-clip:text;
+    color:white;
+    text-shadow:
+    0 0 1px black
+    0 0 7px black,
+    0 0 10px black,
+    0 0 21px black,
+    0 0 42px black,
+    0 0 82px black,
+    0 0 92px black,
+    0 0 102px black,
+    0 0 151px black;
 
-    /* color:white;
-    width: 100%;
-  text-shadow:  black;
-  stroke-width: 5px; */
-        color: #202020;
-    background-color: #2d2d2d;
-    letter-spacing: 0.1em;
-    text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
 
 }
+.App{
+    max-width: 99vw;
+    overflow-x: hidden;
+}
 
-
-  
