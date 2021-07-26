@@ -14,5 +14,10 @@
     font-size: 1.15rem;
 }
 
-/* SVG */
-svg#freepik_stories-learning:not(.animated) .animable {opacity: 0;}svg#freepik_stories-learning.animated #freepik--background-simple--inject-32 {animation: 1.5s Infinite  linear wind;animation-delay: 0s;}svg#freepik_stories-learning.animated #freepik--Earth--inject-32 {animation: 1.5s Infinite  linear spin;animation-delay: 0s;}svg#freepik_stories-learning.animated #freepik--Character--inject-32 {animation: 1.5s Infinite  linear floating;animation-delay: 0s;}            @keyframes wind {                0% {                    transform: rotate( 0deg );                }                25% {                    transform: rotate( 1deg );                }                75% {                    transform: rotate( -1deg );                }            }                 @keyframes spin {             from {                 transform: rotate(0);               }               to {                 transform: rotate(360deg);               }         }                 @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }      
+.learning{
+    position: absolute;
+    width: 25%;
+    bottom: 10%;
+    right: 20%;
+    
+}

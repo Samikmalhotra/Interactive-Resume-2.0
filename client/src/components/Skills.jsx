@@ -1,7 +1,7 @@
 import React from 'react'
 import {Row, Col} from 'react-bootstrap'
 import '../css/skills.css'
-import Developer from './svgs/Developer.js'
+import dev from '../img/Programming-bro.svg'
 const Skills = () => {
     return (
         <div className="skills">
@@ -9,10 +9,9 @@ const Skills = () => {
             <h2 className="section-quote">"What really matters, is the depth of your heart and the strength of your character"</h2>
             <hr/>
 
-  
         <Row className='full-page'>
           <Col lg={5} md={5} >
-            <Developer/>
+          <img src={dev} className="dev-image" alt='dev-img'/>
           </Col>
           <Col lg={7} md={7} xs={11}>
               <Row>

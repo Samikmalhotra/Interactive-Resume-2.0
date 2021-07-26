@@ -2,14 +2,17 @@ import React from 'react'
 import { Fragment } from 'react'
 import{Row,Col} from 'react-bootstrap'
 import '../css/education.css'
-import Learning from './svgs/Learning.js'
+import learning from '../img/Learning-bro.svg'
+
 const Education = () => {
     return (
+        <Fragment>
+        <img src={learning} className='learning' alt='learning'/>
+
         <div className='education'>
             <h2 className="section-heading">Education</h2>
             <h2 className="section-quote">"I don't like studying, I like learning. Learning is beautiful."</h2>
             <hr/>
-            <Learning/>            
             <Row>
         <Col xs={4} className="education-institute">
           <p className="institute-name">Thapar Institute of Engineering and Technology</p>
@@ -59,6 +62,7 @@ const Education = () => {
         </Col>
       </Row>
         </div>
+        </Fragment>
     )
 }
 
