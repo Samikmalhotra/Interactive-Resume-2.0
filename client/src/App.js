@@ -2,14 +2,14 @@
 import './App.css';
 import LandingLayout from './layouts/LandingLayout';
 import SkillsLayout from './layouts/SkillsLayout';
-import Skills from './components/Skills'
+import ProjectsLayout from './layouts/ProjectLayout';
 
 function App() {
   return (
     <div className="App">
       <LandingLayout/>
       <SkillsLayout/>
-      <Skills/>
+      <ProjectsLayout/>
     </div>
   );
 }
