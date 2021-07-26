@@ -20,4 +20,15 @@
     color: black;
     font-size: 1.2rem !important;
     margin-top: 2vh !important;
+    filter: drop-shadow(8px 8px 8px black);
+}
+.project-btn:hover{
+    background-color: #53272e !important;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    background-color: transparent;
 }

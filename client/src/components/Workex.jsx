@@ -1,128 +1,64 @@
 import React,{Fragment} from 'react'
 import '../css/workex.css'
+import {Row,Col} from 'react-bootstrap'
+import project from '../img/Project Stages-bro.svg'
+
 const Workex = () => {
     return (
         <Fragment>
             <h2 className="section-heading">Experience & Positions of Responsibility</h2>
             <h2 className="section-quote">""</h2>
             <hr/>
-            <section class="timeline">
-  <div class="container">
+
+            <Row>
+              <Col lg={8} md={12} sm={12} xs={12}>
+              <section class="timeline">
+              <div class="container">
     <div class="timeline-item">
       <div class="timeline-img"></div>
 
-      <div class="timeline-content js--fadeInLeft">
-        <h2>Title</h2>
-        <div class="date">1 MAY 2016</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
+      <div class="timeline-content">
+        <h2>Intern</h2>
+        <div class="date">April-August, 2021</div>
+        <p>Internship as a frontend developer at Cruxeware Technologies</p>
       </div>
     </div>
 
     <div class="timeline-item">
-
       <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-          <h2>Card Title</h2>
-        </div>
-        <div class="date">25 MAY 2016</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
-      </div>
-
-    </div>
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInLeft">
-        <div class="date">3 JUN 2016</div>
-        <h2>Quote</h2>
-        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+      <div class="timeline-content">
+        <h2>Joint Tech Head</h2>
+        <div class="date">2021</div>
+        <p>Joint Tech Head at ACM Thapar, a chapter of the international society of ACM at Thapar Institute of Engineering & Technology</p>
       </div>
     </div>
 
     <div class="timeline-item">
-
       <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInRight">
-        <h2>Title</h2>
-        <div class="date">22 JUN 2016</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
+      <div class="timeline-content">
+        <h2>Core Member</h2>
+        <div class="date">2021</div>
+        <p>Core member at Creative Computing Society in Thapar Institute of Engineering & Technology</p>
       </div>
     </div>
 
     <div class="timeline-item">
-
       <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInLeft">
-        <div class="timeline-img-header">
-          <h2>Card Title</h2>
-        </div>
-        <div class="date">10 JULY 2016</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
+      <div class="timeline-content">
+        <h2>Manager of Technical Affairs</h2>
+        <div class="date">2021</div>
+        <p>Manager of Technical Affairs at Thapar Toastmasters, a chapter of the international society of Toastmasters at Thapar Institute of Engineering & Technology</p>
       </div>
     </div>
 
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-          <h2>Card Title</h2>
-        </div>
-        <div class="date">30 JULY 2016</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInLeft">
-        <div class="date">5 AUG 2016</div>
-        <h2>Quote</h2>
-        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-          <h2>Card Title</h2>
-        </div>
-        <div class="date">19 AUG 2016</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInLeft">
-        <div class="date">1 SEP 2016</div>
-        <h2>Title</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
-      </div>
-    </div>
     </div>
     </section>
+              </Col>
+              <Col>
+              <img src={project} className='project-img' alt="project-img"/>
+              </Col>
+            </Row>
+ 
         </Fragment>
     )
 }

@@ -2,6 +2,9 @@
   position: relative;
   height: 70vh;
   overflow-y: scroll;
+  color: black;
+  width: 60vw;
+  margin: auto;
 }
 .timeline::before {
   content: "";
@@ -16,10 +19,13 @@
 .timeline-item {
   width: 100%;
   margin-bottom: 70px;
+  text-align: left;
 }
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
-  padding: 40px 30px 10px 30px;
+  padding: 5px;
+  text-align: right ;
+
 }
 .timeline-item:nth-child(even) .timeline-content .date {
   right: auto;
@@ -36,6 +42,12 @@
   border-width: 10px 15px 10px 0;
   border-color: transparent #f5f5f5 transparent transparent;
 }
+.timeline h2{
+  font-size: 1.5rem;
+}
+.timeline-content p{
+  font-size: 1rem;
+}
 .timeline-item::after {
   content: "";
   display: block;
@@ -44,8 +56,8 @@
 
 .timeline-content {
   position: relative;
-  width: 45%;
-  padding: 10px 30px;
+  width: 43%;
+  padding: 5px;
   border-radius: 4px;
   background: #f5f5f5;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
@@ -73,23 +85,7 @@
   margin-left: -15px;
 }
 
-a {
-  background: #3f51b5;
-  color: #ffffff;
-  padding: 8px 20px;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  display: inline-block;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-}
-a:hover, a:active, a:focus {
-  background: #32408f;
-  color: #ffffff;
-  text-decoration: none;
-}
+
 
 .timeline-card {
   padding: 0 !important;
@@ -129,7 +125,7 @@ blockquote {
   background: #ff4081;
   display: inline-block;
   color: #ffffff;
-  padding: 10px;
+  padding: 5px;
   position: absolute;
   top: 0;
   right: 0;
@@ -161,4 +157,11 @@ blockquote {
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
   }
+}
+
+.project-img{
+  width: 75%;
+  text-align: left;
+  margin-top: 15%;
+  margin-right: 15%;
 }
