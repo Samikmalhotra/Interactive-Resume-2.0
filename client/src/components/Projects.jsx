@@ -15,28 +15,28 @@ is managed nothing else can be managed"</h2>
                 <Col xs={12} sm={6} md={6} className="project-col">
                     <div className='project-item'>
                     <i></i>
-                    <h4>Project Name</h4>
+                    <h4>Social Media Website</h4>
                     <p>Project description</p>
                     </div>
                 </Col>
                 <Col xs={12} sm={6} md={6} className="project-col">
                 <div className='project-item'>
                     <i></i>
-                    <h4>Project Name</h4>
+                    <h4>E-commmerce Website</h4>
                     <p>Project description</p>
                     </div>
                 </Col>
                 <Col xs={12} sm={6} md={6} className="project-col">
                 <div className='project-item'>
                     <i></i>
-                    <h4>Project Name</h4>
+                    <h4>Multi-Container Docker App</h4>
                     <p>Project description</p>
                     </div>
                 </Col>
                 <Col xs={12} sm={6} md={6} className="project-col">
                 <div className='project-item'>
                     <i></i>
-                    <h4>Project Name</h4>
+                    <h4>Discord Bot</h4>
                     <p>Project description</p>
                     </div>
                 </Col>
