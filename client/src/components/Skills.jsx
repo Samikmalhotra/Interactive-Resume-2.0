@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row, Col} from 'react-bootstrap'
 import '../css/skills.css'
+import Developer from './svgs/Developer.js'
 const Skills = () => {
     return (
         <div className="skills">
@@ -11,7 +12,7 @@ const Skills = () => {
   
         <Row className='full-page'>
           <Col lg={5} md={5} >
-
+            <Developer/>
           </Col>
           <Col lg={7} md={7} xs={11}>
               <Row>

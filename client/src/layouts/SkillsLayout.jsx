@@ -6,6 +6,7 @@ import Profile from '../components/Profile';
 import Workex from '../components/Workex';
 import Skills from '../components/Skills'
 import Container from '../components/Container';
+import Education from '../components/Education';
 
 const SectionWipes2Styled = styled.div`
   overflow: hidden;
@@ -76,7 +77,11 @@ const SkillsLayout = () => (
             from={{ y: '-100%' }}
             to={{ y: '0%' }}
           >
-            <section className="panel color-2"><span>Panel</span></section>
+            <section className="panel color-2">
+              <Container>
+                <Education/>
+              </Container>
+            </section>
           </Tween>
         </Timeline>
       </Scene>
