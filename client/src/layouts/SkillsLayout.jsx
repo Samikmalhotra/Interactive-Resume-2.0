@@ -21,13 +21,6 @@ const SectionWipes2Styled = styled.div`
     position: absolute;
     text-align: center;
   }
-  .panel span {
-    position: relative;
-    display: block;
-    top: 50%;
-    font-size: 80px;
-  }
-  
   .panel.color-1 {
     background-color: #090021;
   }

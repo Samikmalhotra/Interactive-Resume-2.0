@@ -30,12 +30,12 @@ body{
 }
 
 .name-title h2{
-    font-family: 'Jaldi', sans-serif;
+    font-family: 'POLYA';
     font-size: 6rem !important;
     border-radius: 10px;
     padding-top: 0;
     margin: 0;
-    color:#E94560;
+    color:white;
     text-shadow:
     0 0 1px #000,
     0 0 7px #000,
@@ -48,7 +48,7 @@ body{
     0 0 151px #000;
     backdrop-filter: blur(2px);
     z-index: 5;
-    font-weight: bold;
+    /* sfont-weight: bold; */
 }
 .tagline h2{
     position: absolute;

@@ -6,61 +6,123 @@ const Workex = () => {
             <h2 className="section-heading">Experience & Positions of Responsibility</h2>
             <h2 className="section-quote">""</h2>
             <hr/>
-            <ul class="timeline">
+            <section class="timeline">
+  <div class="container">
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
 
-
-<li>
-    <div class="direction-r">
-        <div class="flag-wrapper">
-            <span class="flag">Front End Developer</span>
-            <span class="time-wrapper"><span class="time">April 2021 - Aug 2021</span></span>
-        </div>
-        <div class="desc">My current employment. Way better than the position before!</div>
+      <div class="timeline-content js--fadeInLeft">
+        <h2>Title</h2>
+        <div class="date">1 MAY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
     </div>
-</li>
 
+    <div class="timeline-item">
 
-<li>
-    <div class="direction-l">
-        <div class="flag-wrapper">
-            <span class="flag">Apple Inc.</span>
-            <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
         </div>
-        <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+        <div class="date">25 MAY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+
     </div>
-</li>
 
+    <div class="timeline-item">
 
-<li>
-    <div class="direction-r">
-        <div class="flag-wrapper">
-            <span class="flag">Harvard University</span>
-            <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">3 JUN 2016</div>
+        <h2>Quote</h2>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInRight">
+        <h2>Title</h2>
+        <div class="date">22 JUN 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInLeft">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
         </div>
-        <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+        <div class="date">10 JULY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
     </div>
-</li>
-<li>
-    <div class="direction-r">
-        <div class="flag-wrapper">
-            <span class="flag">Harvard University</span>
-            <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
-        </div>
-        <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
-    </div>
-</li>
-<li>
-    <div class="direction-r">
-        <div class="flag-wrapper">
-            <span class="flag">Harvard University</span>
-            <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
-        </div>
-        <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
-    </div>
-</li>
 
-</ul>
+    <div class="timeline-item">
 
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
+        </div>
+        <div class="date">30 JULY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">5 AUG 2016</div>
+        <h2>Quote</h2>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
+        </div>
+        <div class="date">19 AUG 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">1 SEP 2016</div>
+        <h2>Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>
+    </div>
+    </section>
         </Fragment>
     )
 }
