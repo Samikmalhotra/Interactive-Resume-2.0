@@ -92,4 +92,9 @@ body{
 .full-page{
     overflow-y: scroll;
 }
+.gif{
+    position: absolute;
+    left: 35.5%;
+    top: 10%;
+}
 

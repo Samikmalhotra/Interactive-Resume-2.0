@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline } from 'react-gsap';
 import { Container } from 'react-bootstrap';
+import scroll from '../img/scroll.gif'
 
 const Sticky2Styled = styled.div`
   overflow: hidden;
@@ -60,13 +61,23 @@ const LandingLayout = () => (
       <div>
         <Scene
           triggerHook="onLeave"
-          duration={1000}
+          duration={2000}
           pin
         >
           {(progress) => (
             <div className="sticky landing">
                <div id='color-overlay'/>
               <Timeline totalProgress={progress} paused>
+                <Timeline 
+                  target={
+                    <div className='gif'>
+                      <img src={scroll} alt='scroll-gif'/>
+                      </div>
+                  }>
+                     <Tween
+                    from={{ opacity: 1 }}
+                    to={{ opacity: 0 }}
+                  />
                 <Timeline
                   target={
                     <div className="name-title">
@@ -74,10 +85,7 @@ const LandingLayout = () => (
                     </div>
                   }
                 >
-                  <Tween
-                    from={{ opacity: 0 }}
-                    to={{ opacity: 1 }}
-                  />
+
                   <Tween
                     to={{ y: '-200%'
                      }}
@@ -103,6 +111,7 @@ const LandingLayout = () => (
                     to={{ opacity: 1 }}
                   />
 
+                </Timeline>
                 </Timeline>
                 </Timeline>
               </Timeline>
