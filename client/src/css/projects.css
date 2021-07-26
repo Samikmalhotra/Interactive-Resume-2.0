@@ -1,0 +1,18 @@
+.project-col{
+    margin: auto;
+    min-height: 25vh;
+    
+}
+.project-item{
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #E94560;
+    border-radius: 5px;
+    margin: 10px auto;
+    height: 200% !important;
+}
+.project-btn{
+    background-color: #E94560 !important;
+    color: black;
+    font-size: 1.2rem !important;
+}
