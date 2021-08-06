@@ -71,7 +71,8 @@ const LandingLayout = () => (
                 <Timeline 
                   target={
                     <div className='gif'>
-                      <img src={scroll} alt='scroll-gif'/>
+                      <p>Scroll Down</p>
+                      <i class="fas fa-chevron-down"></i>
                       </div>
                   }>
                      <Tween

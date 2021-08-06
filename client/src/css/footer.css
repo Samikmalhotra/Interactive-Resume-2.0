@@ -1,0 +1,20 @@
+.contact-form{
+    width: 85%;
+    padding: 5%;
+    margin: auto;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    margin-top: 5%;
+    text-align: left;
+}
+.contact-form button{
+    margin: auto !important;
+    text-align: center;
+    color: white;
+    background-color: #E94560;
+    padding: 1.5%;
+    margin-top: 5%;
+}
+.contact-form button:hover{
+    background-color: #53272e !important;
+
+}
