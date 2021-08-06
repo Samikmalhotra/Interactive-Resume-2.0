@@ -2,17 +2,18 @@
     width: 85%;
     padding: 5%;
     margin: auto;
-    box-shadow: 0 0 8px rgb(0, 0, 0);
+    border: 2px solid #E94560;
     margin-top: 5%;
     text-align: left;
+    border-radius: 25px;
 }
 .contact-form button{
-    margin: auto !important;
     text-align: center;
     color: white;
     background-color: #E94560;
     padding: 1.5%;
-    margin-top: 5%;
+    margin-top: 2.5% !important;
+    min-width: 25%;
 }
 .contact-form button:hover{
     background-color: #53272e !important;

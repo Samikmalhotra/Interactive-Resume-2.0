@@ -1,23 +1,13 @@
 import React,{Fragment} from 'react';
 import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
-import { Tween, Timeline } from 'react-gsap';
+import { Tween, Timeline, SplitLetters } from 'react-gsap';
 import { Container } from 'react-bootstrap';
 import scroll from '../img/scroll.gif'
 
 const Sticky2Styled = styled.div`
   overflow: hidden;
   
-  #color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.6;
-    z-index: 0;
- }
   .sticky, .sticky2 {
     height: 100vh;
     width: 100%;
@@ -53,6 +43,7 @@ const Sticky2Styled = styled.div`
     color: white;
     font-size: 4rem;  
   }
+
 `;
 
 const LandingLayout = () => (
@@ -66,7 +57,6 @@ const LandingLayout = () => (
         >
           {(progress) => (
             <div className="sticky landing">
-               <div id='color-overlay'/>
               <Timeline totalProgress={progress} paused>
                 <Timeline 
                   target={
@@ -86,7 +76,6 @@ const LandingLayout = () => (
                     </div>
                   }
                 >
-
                   <Tween
                     to={{ y: '-200%'
                      }}

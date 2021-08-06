@@ -33,9 +33,11 @@ const Footer = () => {
     <Form.Label>Message</Form.Label>
     <Form.Control type="text" placeholder="Enter message" />
   </Form.Group>
+  <center>
   <Button type="submit">
     Submit
   </Button>
+  </center>
 </Form>
                 </div>
                 </Col>

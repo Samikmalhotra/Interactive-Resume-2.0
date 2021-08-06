@@ -1,3 +1,11 @@
 .profile-text{
     text-align: left;
 }
+.profile-img{
+    position: relative;
+    border-radius: 50%;
+    width: 65%;
+    margin-top: 5vh;
+    /* bottom: 18rem; */
+    border: 5px solid #E94560;
+}

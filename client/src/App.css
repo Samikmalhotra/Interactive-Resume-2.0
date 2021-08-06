@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
 @font-face {
-    font-family: 'POLYA';
-    src: url('font/POLYARegular-Regular.woff2') format('woff2'),
-        url('font/POLYARegular-Regular.woff') format('woff');
+    font-family: 'Aquire';
+    src: url('font/AquireRegular.woff2') format('woff2'),
+        url('font/AquireRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -29,13 +28,26 @@ body{
     background-position: center;
 }
 
+.landing::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
 .name-title h2{
-    font-family: 'POLYA';
+    font-family: 'Aquire';
     font-size: 6rem !important;
-    border-radius: 10px;
     padding-top: 0;
     margin: 0;
     color:white;
+    text-align: center;
+    position: relative;
+    left: 1.35rem;
     text-shadow:
     0 0 1px #000,
     0 0 7px #000,
@@ -46,11 +58,10 @@ body{
     0 0 92px #000,
     0 0 102px #000,
     0 0 151px #000;
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
     z-index: 5;
-    /* sfont-weight: bold; */
 }
-.tagline h2{
+/* .tagline h2{
     position: absolute;
     top: 50%;
     color: white;
@@ -58,7 +69,8 @@ body{
     left: 28%;
     font-size: 3rem;
     z-index: 5;
-}
+    margin: auto;
+} */
 .intro{
     z-index: 5;
 }
@@ -103,3 +115,31 @@ body{
     font-size: 3rem;
 }
 
+@-webkit-keyframes bounce {
+    0%{transform: translateY(0);} 
+   50% {transform: translateY(-30px);} 
+   100% {transform: translateY(0);} 
+  }
+@-moz-keyframes bounce {
+    0% {transform: translateY(0);} 
+   50% {transform: translateY(-30px);} 
+   100% {transform: translateY(0);} 
+  }
+@-o-keyframes bounce {
+    0% {transform: translateY(0);} 
+   50% {transform: translateY(-30px);} 
+   100% {transform: translateY(0);} 
+  }
+@keyframes bounce {
+    0% {transform: translateY(0);} 
+   50% {transform: translateY(-30px);} 
+   100% {transform: translateY(0);} 
+  }
+
+.fa-chevron-down{
+    margin-top: 20px;
+    -webkit-animation: bounce 2.5s infinite; 
+    -moz-animation:    bounce 2.5s infinite; 
+    -o-animation:      bounce 2.5s infinite; 
+    animation:         bounce 2.5s infinite; 
+}
