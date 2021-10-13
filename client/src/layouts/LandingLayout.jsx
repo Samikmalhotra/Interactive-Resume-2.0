@@ -38,7 +38,7 @@ const Sticky2Styled = styled.div`
   .name-title {
     position: absolute;
     bottom: 8%;
-    left:17%;
+    left:19%;
     overflow: visible;
     color: white;
     font-size: 4rem;  

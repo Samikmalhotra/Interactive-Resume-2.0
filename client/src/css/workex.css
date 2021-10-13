@@ -7,7 +7,7 @@
   margin: auto;
 }
 .timeline::before {
-  content: "";
+  content: '';
   background: #c5cae9;
   width: 5px;
   height: 95%;
@@ -18,21 +18,20 @@
 
 .timeline-item {
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 0;
   text-align: left;
 }
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
   padding: 5px;
-  text-align: right ;
-
+  text-align: right;
 }
 .timeline-item:nth-child(even) .timeline-content .date {
   right: auto;
   left: 0;
 }
 .timeline-item:nth-child(even) .timeline-content::after {
-  content: "";
+  content: '';
   position: absolute;
   border-style: solid;
   width: 0;
@@ -42,14 +41,16 @@
   border-width: 10px 15px 10px 0;
   border-color: transparent #f5f5f5 transparent transparent;
 }
-.timeline h2{
-  font-size: 1.5rem;
+.timeline h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
-.timeline-content p{
-  font-size: 1rem;
+.timeline-content p {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 .timeline-item::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -63,7 +64,7 @@
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 .timeline-content::after {
-  content: "";
+  content: '';
   position: absolute;
   border-style: solid;
   width: 0;
@@ -85,8 +86,6 @@
   margin-left: -15px;
 }
 
-
-
 .timeline-card {
   padding: 0 !important;
 }
@@ -98,7 +97,8 @@
 }
 
 .timeline-item .timeline-img-header {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+    url('https://picsum.photos/1000/800/?random') center center no-repeat;
   background-size: cover;
 }
 
@@ -147,7 +147,7 @@ blockquote {
     float: none;
   }
   .timeline .timeline-item:nth-child(odd) .timeline-content::after {
-    content: "";
+    content: '';
     position: absolute;
     border-style: solid;
     width: 0;
@@ -159,7 +159,7 @@ blockquote {
   }
 }
 
-.project-img{
+.project-img {
   width: 75%;
   text-align: left;
   margin-top: 15%;
