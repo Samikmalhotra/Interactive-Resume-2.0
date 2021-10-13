@@ -7,6 +7,8 @@
   font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 body {
   color: white;
   background-color: #090021;
@@ -31,7 +33,7 @@ body {
   content: '';
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -39,15 +41,22 @@ body {
 }
 
 .name-title h2 {
-  font-family: 'Aquire';
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
   font-size: 6rem !important;
   padding-top: 0;
   margin: 0;
   color: white;
   text-align: center;
-  text-shadow: 0 0 1px #000, 0 0 7px #000, 0 0 10px #000, 0 0 21px #000,
-    0 0 42px #000, 0 0 82px #000, 0 0 92px #000, 0 0 102px #000, 0 0 151px #000;
-  /* backdrop-filter: blur(2px); */
+  /* text-shadow: 0 0 1px #000, 0 0 7px #000, 0 0 10px #000, 0 0 21px #000,
+    0 0 42px #000, 0 0 82px #000, 0 0 92px #000, 0 0 102px #000, 0 0 151px #000; */
+  backdrop-filter: blur(2px);
+  font-size: 4.5rem;
+  margin: 15px 0;
+  background: -webkit-linear-gradient(#333399, #ff00cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(8px 8px 3px black);
   z-index: 5;
 }
 /* .tagline h2{

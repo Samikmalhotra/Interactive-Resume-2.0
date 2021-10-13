@@ -15,7 +15,6 @@ const Footer = () => {
             <Row>
                 <Col lg={4} md={4}>
                 <img src={contact} alt="contact" className="contact-img"/>
-
                 </Col>
                 <Col>
                 <div className="contact-form">
@@ -28,7 +27,6 @@ const Footer = () => {
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
   </Form.Group>
-
   <Form.Group className="mb-3" >
     <Form.Label>Message</Form.Label>
     <Form.Control type="text" placeholder="Enter message" />

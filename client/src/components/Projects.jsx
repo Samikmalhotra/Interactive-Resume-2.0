@@ -37,7 +37,14 @@ is managed nothing else can be managed"</h2>
                 <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
                     <div className='project-item'>
                     <i></i>
-                    <h4>Social Media Website</h4>
+                    <h4>Microservices</h4>
+                    <p>Project description</p>
+                    </div>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
+                    <div className='project-item'>
+                    <i></i>
+                    <h4>NPM library</h4>
                     <p>Project description</p>
                     </div>
                 </Col>
@@ -51,14 +58,7 @@ is managed nothing else can be managed"</h2>
                 <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
                     <div className='project-item'>
                     <i></i>
-                    <h4>Social Media Website</h4>
-                    <p>Project description</p>
-                    </div>
-                </Col>
-                <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
-                    <div className='project-item'>
-                    <i></i>
-                    <h4>Social Media Website</h4>
+                    <h4>Ecommerce Website</h4>
                     <p>Project description</p>
                     </div>
                 </Col>

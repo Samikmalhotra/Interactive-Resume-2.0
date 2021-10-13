@@ -41,7 +41,7 @@ const Sticky2Styled = styled.div`
     left:19%;
     overflow: visible;
     color: white;
-    font-size: 4rem;  
+    text-transform: uppercase;
   }
 
 `;
