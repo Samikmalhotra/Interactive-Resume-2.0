@@ -99,6 +99,14 @@ const Skills = () => {
               <i className="devicon-docker-plain devicon "></i>
               <p className="tech-label">Docker</p>
             </Col>
+            <Col lg={2} md={2} sm={3}>
+              <i className="devicon-typescript-plain devicon "></i>
+              <p className="tech-label">Typescript</p>
+            </Col>
+            <Col lg={2} md={2} sm={3}>
+              <i className="devicon-jest-plain devicon "></i>
+              <p className="tech-label">Jest</p>
+            </Col>
           </Row>
           </Col>
         </Row>
