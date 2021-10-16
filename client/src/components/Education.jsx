@@ -7,6 +7,7 @@ import learning from '../img/Learning-bro.svg'
 const Education = () => {
     return (
         <Fragment>
+        <a name="education"></a>
         <img src={learning} className='learning' alt='learning'/>
 
         <div className='education'>

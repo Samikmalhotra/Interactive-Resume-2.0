@@ -9,6 +9,7 @@ import '../css/footer.css'
 const Footer = () => {
     return (
         <Fragment>
+            <a name="footer"></a>
             <h2 className="section-heading">Contact</h2>
             <h2 className="section-quote">"A simple hello could lead to a million things"</h2>
             <hr/>  
