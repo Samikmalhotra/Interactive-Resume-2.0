@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline, SplitLetters } from 'react-gsap';
 import { Container } from 'react-bootstrap';
+import ReactTypingEffect from 'react-typing-effect';
 import scroll from '../img/scroll.gif'
 
 const Sticky2Styled = styled.div`
@@ -89,14 +90,15 @@ const LandingLayout = () => (
                       <Container>
         <p className="hello-world">Hello World! My name is</p>
         <h2 className='intro-name'>Samik Malhotra</h2>
-        <h2 className='intro-tagline'>I love learning new things!</h2>
+        <h2 className='intro-tagline'><ReactTypingEffect speed={80} eraseSpeed={80} typingDelay={1000} eraseDelay={2000} text={["I love learning new things!", "I am a MERN Stack Developer"]}></ReactTypingEffect></h2>
         <p className="intro-text"><ul>
           <li><a className="custom-navbar" href="#profile">About me</a></li>
-          <li><a className="custom-navbar" href="#profile">About me</a></li>
-          <li><a className="custom-navbar" href="#profile">About me</a></li>
-          <li><a className="custom-navbar" href="#profile">About me</a></li>
-          <li><a className="custom-navbar" href="#profile">About me</a></li>
-          <li><a className="custom-navbar" href="#profile">About me</a></li>
+          <li><a className="custom-navbar" href="#workex">Experience</a></li>
+          <li><a className="custom-navbar" href="#skills">Skills</a></li>
+          <li><a className="custom-navbar" href="#education">Education</a></li>
+          <li><a className="custom-navbar" href="#projects">Projects</a></li>
+          <li><a className="custom-navbar" href="#achievements">Achievements</a></li>
+          <li><a className="custom-navbar" href="#footer">Contact</a></li>
 
           </ul></p>
         </Container>
