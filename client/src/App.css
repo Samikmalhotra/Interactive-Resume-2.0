@@ -48,12 +48,19 @@ body {
   margin: 0;
   color: white;
   text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
   /* text-shadow: 0 0 1px #000, 0 0 7px #000, 0 0 10px #000, 0 0 21px #000,
     0 0 42px #000, 0 0 82px #000, 0 0 92px #000, 0 0 102px #000, 0 0 151px #000; */
   backdrop-filter: blur(2px);
   font-size: 4.5rem;
   margin: 15px 0;
-  background: -webkit-linear-gradient(#333399, #ff00cc);
+  background: linear-gradient(
+    rgba(252, 37, 103, 1) 0%,
+    rgba(250, 38, 151, 1) 46.2%,
+    rgba(186, 8, 181, 1) 90.1%
+  );
+  /* background: -webkit-linear-gradient(#e94560, #0f3460); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(8px 8px 3px black);
@@ -183,4 +190,9 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #d47b8a;
+}
+
+.custom-navbar {
+  text-decoration: none;
+  color: white;
 }
