@@ -9,10 +9,13 @@ import Slider from "react-slick";
 const Projects = () => {
     const settings = {
         dots: true,
+        autoplay: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+        speed: 300,
+        autoplaySpeed: 2000,
+        pauseOnHover: true
       };
     return (
         <Fragment>
