@@ -12,6 +12,7 @@ const Education = () => {
         <a name="skills"></a>
         <div className='education'>
             <h2 className="section-heading">Education</h2>
+            <a name="education"></a>
             <h2 className="section-quote">"I don't like studying, I like learning. Learning is beautiful."</h2>
             <hr/>
             <Row>
@@ -58,7 +59,7 @@ const Education = () => {
           <p className="degree-name">Elementary School </p>
           <p className="degree-location"><i class="fa fa-map-marker"></i>
           Delhi, India</p>
-          <a name="education"></a>
+          
 
         </Col>
       </Row>

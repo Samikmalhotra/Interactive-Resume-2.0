@@ -16,6 +16,7 @@ const Projects = () => {
       };
     return (
         <Fragment>
+            <a name="education"></a>
             <a name="projects"></a>
             <h2 className="section-heading">Projects</h2>
             <h2 className="section-quote">"Time is the scarcest resource and unless it
@@ -39,28 +40,33 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>Microservices</h4>
-                    <p>Project description</p>
+                    <p>Nextjs, Nodejs, Express, MongoDB, Redis, NATS Streaming Server, Docker, Kubernetes, Nginx, Typescript</p>
+                    <hr/>
                     </div>
                 </Col>
                 <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
                     <div className='project-item'>
                     <i></i>
                     <h4>NPM library</h4>
-                    <p>Project description</p>
+                    <p>NATS Streaming Server, Nodejs, Typescript</p>
+                    <hr/>
+                    <h6></h6>
                     </div>
                 </Col>
                 <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
                     <div className='project-item'>
                     <i></i>
                     <h4>Social Media Website</h4>
-                    <p>Project description</p>
+                    <p>Reactjs, MongoDB, Express, Redux, Nodejs</p>
+                    <hr/>
                     </div>
                 </Col>
                 <Col xs={12} sm={6} md={6} lg= {4} className="project-col">
                     <div className='project-item'>
                     <i></i>
                     <h4>Ecommerce Website</h4>
-                    <p>Project description</p>
+                    <p>Reactjs, MongoDB, Express, Redux, Nodejs</p>
+                    <hr/>
                     </div>
                 </Col>
                 </Slider>
