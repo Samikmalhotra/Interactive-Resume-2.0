@@ -16,6 +16,8 @@ const Footer = () => {
             <Row>
                 <Col lg={4} md={4}>
                 <img src={contact} alt="contact" className="contact-img"/>
+                <p className="contact-text">© 2021 - Designed and built by Samik Malhotra</p>
+                <p>Background image and illustrations are property of <bold><a href="https://www.freepik.com/" target="blank" rel="noreferrer">Freepik</a></bold> and <bold><a href="https://storyset.com/" target="blank" rel="noreferrer">Storyset</a></bold> respectively</p>
                 </Col>
                 <Col>
                 <div className="contact-form">
