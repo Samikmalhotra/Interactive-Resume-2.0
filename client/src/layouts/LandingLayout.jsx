@@ -4,7 +4,7 @@ import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline, SplitLetters } from 'react-gsap';
 import { Container } from 'react-bootstrap';
 import ReactTypingEffect from 'react-typing-effect';
-import scroll from '../img/scroll.gif'
+import { Button } from '@material-ui/core';
 
 const Sticky2Styled = styled.div`
   overflow: hidden;
@@ -91,16 +91,18 @@ const LandingLayout = () => (
         <p className="hello-world">Hello World! My name is</p>
         <h2 className='intro-name'>Samik Malhotra</h2>
         <h2 className='intro-tagline'><ReactTypingEffect speed={80} eraseSpeed={80} typingDelay={1000} eraseDelay={2000} text={["I love learning new things!", "I am a MERN Stack Developer"]}></ReactTypingEffect></h2>
-        <p className="intro-text"><ul>
-          <li><a className="custom-navbar" href="#profile">About me</a></li>
-          <li><a className="custom-navbar" href="#workex">Experience</a></li>
-          <li><a className="custom-navbar" href="#skills">Skills</a></li>
-          <li><a className="custom-navbar" href="#education">Education</a></li>
-          <li><a className="custom-navbar" href="#projects">Projects</a></li>
-          <li><a className="custom-navbar" href="#achievements">Achievements</a></li>
-          <li><a className="custom-navbar" href="#footer">Contact</a></li>
+        <p className='profile-social-icon-row'>
+        <i class="devicon-github-original profile-social-icon"></i>
+        <i class="devicon-linkedin-plain profile-social-icon"></i>
+        <i class="devicon-twitter-original profile-social-icon"></i>
 
-          </ul></p>
+        </p>
+        <a href="https://drive.google.com/file/d/1lEj87l-_Mjjs87wtpFoduZreTCxgZmBK/view?usp=sharing" target="_blank">
+                <Button className='project-btn profile-btn'>Resume</Button>
+            </a>
+            <a href="#footer">
+                <Button className='project-btn profile-btn'>Contact</Button>
+            </a>
         </Container>
       </div>
                   }

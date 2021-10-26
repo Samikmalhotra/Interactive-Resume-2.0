@@ -15,6 +15,7 @@
 }
 .project-item:hover {
   background-color: #e94560;
+  transform: scale(1.05);
 }
 .project-btn {
   background-color: #e94560 !important;
