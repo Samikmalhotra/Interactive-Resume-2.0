@@ -29,7 +29,7 @@ const Profile = () => {
             {/* <img src={blob} alt='' className='blob'/> */}
             <img src="https://avatars.githubusercontent.com/u/72279316?v=4" alt="Samik Malhotra" className="profile-img" />
             <br/><br/>
-            <center><a href="https://github.com/Samikmalhotra?tab=repositories">
+            <center><a href="https://drive.google.com/file/d/1lEj87l-_Mjjs87wtpFoduZreTCxgZmBK/view?usp=sharing" target="_blank">
                 <Button className='project-btn'>Resume</Button>
             </a></center>
           </Col>

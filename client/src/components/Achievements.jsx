@@ -12,7 +12,18 @@ the same respect as that of a CEO"</h2>
             <hr/>  
             <Row>
                 <Col lg={8} md={8}>
+                    <Row > 
+                        <Col lg={4} xs={4}>
+                            <div className="achievement-div"></div>
+                        </Col>
+                        <Col lg={4} xs={4}>
+                        <div className="achievement-div"></div>
+                        </Col>
+                        <Col lg={4} xs={4}>
+                        <div className="achievement-div"></div>
+                        </Col>
 
+                    </Row>
                 </Col>
                 <Col>
                 <img src={achievement} alt="achievement" className="achievement-img"/>

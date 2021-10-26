@@ -3,3 +3,9 @@
     width: 75%;
     margin-right: 10%;
 }
+.achievement-div{
+    padding: 5%;
+    background-color: black;
+    min-height: 30vh;
+    margin-top: 13vh;
+}
