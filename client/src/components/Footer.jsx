@@ -19,7 +19,7 @@ const Footer = () => {
                 </Col>
                 <Col>
                 <div className="contact-form">
-                <Form action="mailto:smalhotra2_be20@thapar.edu" method="get" enctype="text/plain">
+                <Form name="Contact" method="POST" data-netlify="true">
                 <Form.Group className="mb-3" >
     <Form.Label>Name</Form.Label>
     <Form.Control type="text" placeholder="Enter name" />
@@ -30,7 +30,7 @@ const Footer = () => {
   </Form.Group>
   <Form.Group className="mb-3" >
     <Form.Label>Message</Form.Label>
-    <Form.Control type="text" placeholder="Enter message" />
+    <Form.Control as="textarea" rows={5} type="text" placeholder="Enter message" />
   </Form.Group>
   <center>
   <Button type="submit">

@@ -7,7 +7,7 @@ const Workex = () => {
     return (
         <Fragment>
             <h2 className="section-heading">Experience & Positions of Responsibility</h2>
-            <h2 className="section-quote">""</h2>
+            <h2 className="section-quote">"Every experience makes you grow"</h2>
             <hr/>
 
             <Row>
