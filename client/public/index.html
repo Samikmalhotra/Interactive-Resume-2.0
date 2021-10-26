@@ -38,16 +38,372 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #000;
     z-index: 9999;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+}
+
+.wrap-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+
+.loader {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+}
+.loader::before {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8.6956521739rem;
+  height: 8.6956521739rem;
+  background: #000;
+  border-radius: 50%;
+}
+.loader .box {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+}
+.loader .box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+.loader .box:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.loader .box:nth-child(1)::before {
+  top: 50%;
+  left: 50%;
+  background: #4185F3;
+  -webkit-animation: lightMe1 4s ease-out infinite normal;
+          animation: lightMe1 4s ease-out infinite normal;
+}
+.loader .box:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.loader .box:nth-child(2)::before {
+  top: 50%;
+  right: 50%;
+  background: #33A753;
+  -webkit-animation: lightMe2 4s ease-out infinite normal;
+          animation: lightMe2 4s ease-out infinite normal;
+}
+.loader .box:nth-child(3) {
+  bottom: 0;
+  right: 0;
+}
+.loader .box:nth-child(3)::before {
+  bottom: 50%;
+  right: 50%;
+  background: #FABB04;
+  -webkit-animation: lightMe3 4s ease-out infinite normal;
+          animation: lightMe3 4s ease-out infinite normal;
+}
+.loader .box:nth-child(4) {
+  bottom: 0;
+  left: 0;
+}
+.loader .box:nth-child(4)::before {
+  bottom: 50%;
+  left: 50%;
+  background: #E94234;
+  -webkit-animation: lightMe4 4s linear infinite normal;
+          animation: lightMe4 4s linear infinite normal;
+}
+.loader .wrap-text {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.loader .text {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  -webkit-animation: slider 8s ease-in infinite;
+          animation: slider 8s ease-in infinite;
+}
+.loader .text span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+}
+
+.loader-text {
+  color: #fff;
+  transform: translateY(-2rem);
+  letter-spacing: 6px;
+  opacity: 0.2;
+  -webkit-animation: blink 1s ease-out infinite alternate;
+          animation: blink 1s ease-out infinite alternate;
+}
+
+@-webkit-keyframes lightMe1 {
+  0% {
+    opacity: 0.1;
   }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes lightMe1 {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes lightMe2 {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lightMe2 {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes lightMe3 {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lightMe3 {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes lightMe4 {
+  0% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lightMe4 {
+  0% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slider {
+  0% {
+    transform: translateY(0);
+  }
+  10.5% {
+    transform: translateY(0);
+  }
+  12.5% {
+    transform: translateY(-40px);
+  }
+  23% {
+    transform: translateY(-40px);
+  }
+  25% {
+    transform: translateY(-80px);
+  }
+  35% {
+    transform: translateY(-80px);
+  }
+  37.5% {
+    transform: translateY(-120px);
+  }
+  47.5% {
+    transform: translateY(-120px);
+  }
+  50% {
+    transform: translateY(-160px);
+  }
+  60% {
+    transform: translateY(-160px);
+  }
+  62.5% {
+    transform: translateY(-200px);
+  }
+  72.5% {
+    transform: translateY(-200px);
+  }
+  75% {
+    transform: translateY(-240px);
+  }
+  85% {
+    transform: translateY(-240px);
+  }
+  87.5% {
+    transform: translateY(-280px);
+  }
+  100% {
+    transform: translateY(-280px);
+  }
+}
+@keyframes slider {
+  0% {
+    transform: translateY(0);
+  }
+  10.5% {
+    transform: translateY(0);
+  }
+  12.5% {
+    transform: translateY(-40px);
+  }
+  23% {
+    transform: translateY(-40px);
+  }
+  25% {
+    transform: translateY(-80px);
+  }
+  35% {
+    transform: translateY(-80px);
+  }
+  37.5% {
+    transform: translateY(-120px);
+  }
+  47.5% {
+    transform: translateY(-120px);
+  }
+  50% {
+    transform: translateY(-160px);
+  }
+  60% {
+    transform: translateY(-160px);
+  }
+  62.5% {
+    transform: translateY(-200px);
+  }
+  72.5% {
+    transform: translateY(-200px);
+  }
+  75% {
+    transform: translateY(-240px);
+  }
+  85% {
+    transform: translateY(-240px);
+  }
+  87.5% {
+    transform: translateY(-280px);
+  }
+  100% {
+    transform: translateY(-280px);
+  }
+}
+@-webkit-keyframes blink {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.75;
+  }
+}
+@keyframes blink {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.75;
+  }
+}
+
 </style>
   </head>
   <body onload="loadfun()">
-    <div id = "loading"></div>
+    <div id = "loading">
+      <div class="wrap-loader">
+        <div class="loader">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="wrap-text"> 
+            <div class="text"><span>S</span><span>A</span><span>M</span><span>...</span>
+            </div>
+          </div>
+        </div>
+        <div class="loader-text">wait please</div>
+      </div>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
