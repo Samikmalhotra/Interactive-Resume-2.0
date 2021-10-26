@@ -14,13 +14,19 @@ the same respect as that of a CEO"</h2>
                 <Col lg={8} md={8}>
                     <Row > 
                         <Col lg={4} xs={4}>
-                            <div className="achievement-div"></div>
+                            <div className="achievement-div">
+                                <center><i class="fas fa-trophy fa-7x"></i></center>
+                            </div>
                         </Col>
                         <Col lg={4} xs={4}>
-                        <div className="achievement-div"></div>
+                        <div className="achievement-div">
+                        <center><i class="fas fa-medal fa-7x"></i></center>
+                        </div>
                         </Col>
                         <Col lg={4} xs={4}>
-                        <div className="achievement-div"></div>
+                        <div className="achievement-div">
+                        <center><i class="fas fa-award fa-7x"></i></center>
+                        </div>
                         </Col>
 
                     </Row>

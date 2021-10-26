@@ -95,7 +95,7 @@ is managed nothing else can be managed"</h2>
                 </Col> */}
             
 
-            <a href="https://github.com/Samikmalhotra?tab=repositories">
+            <a href="https://github.com/Samikmalhotra?tab=repositories" target="_blank">
                 <Button className='project-btn'>More Projects</Button>
             </a>
                 </Col>

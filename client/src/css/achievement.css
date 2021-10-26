@@ -5,7 +5,17 @@
 }
 .achievement-div{
     padding: 5%;
-    background-color: black;
+    padding-top:10%;
     min-height: 30vh;
     margin-top: 13vh;
+    transition: all 0.4s ease;
+    border-radius: 20px;
+    filter: drop-shadow(8px 8px 8px black)
+}
+.achievement-div:hover{
+    background-color: #e94560;
+}
+
+.fa-7x:hover{
+    
 }

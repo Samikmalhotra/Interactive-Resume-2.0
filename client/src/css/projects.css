@@ -11,6 +11,7 @@
   margin: 10px auto;
   height: 45vh !important;
   transition: all 0.5s ease-in;
+  filter:drop-shadow(8px 8px 8px black);
 }
 .project-item:hover {
   background-color: #e94560;
