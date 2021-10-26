@@ -61,8 +61,11 @@ const SkillsLayout = () => (
             to={{ x: '0%' }}
           >
             <section className="panel color-1">
+            
               <Container>
+             
               <Skills/>
+              
               </Container>
             </section>
           </Tween>
@@ -76,9 +79,12 @@ const SkillsLayout = () => (
               </Container>
             </section>
           </Tween>
+         
         </Timeline>
+        
       </Scene>
     </Controller>
+    
   </SectionWipes2Styled>
 );
 

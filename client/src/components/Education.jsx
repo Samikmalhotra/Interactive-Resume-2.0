@@ -7,9 +7,9 @@ import learning from '../img/Learning-bro.svg'
 const Education = () => {
     return (
         <Fragment>
-        <a name="education"></a>
+        
         <img src={learning} className='learning' alt='learning'/>
-
+        <a name="skills"></a>
         <div className='education'>
             <h2 className="section-heading">Education</h2>
             <h2 className="section-quote">"I don't like studying, I like learning. Learning is beautiful."</h2>
@@ -58,11 +58,13 @@ const Education = () => {
           <p className="degree-name">Elementary School </p>
           <p className="degree-location"><i class="fa fa-map-marker"></i>
           Delhi, India</p>
-
+          <a name="education"></a>
 
         </Col>
       </Row>
+      
         </div>
+       
         </Fragment>
     )
 }

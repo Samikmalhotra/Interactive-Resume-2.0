@@ -6,7 +6,6 @@ import project from '../img/Project Stages-bro.svg'
 const Workex = () => {
     return (
         <Fragment>
-            <a name="workex"></a>
             <h2 className="section-heading">Experience & Positions of Responsibility</h2>
             <h2 className="section-quote">""</h2>
             <hr/>

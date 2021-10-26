@@ -4,8 +4,9 @@ import '../css/skills.css'
 import dev from '../img/Programming-bro.svg'
 const Skills = () => {
     return (
+      <div>
         <div className="skills">
-          <a name="skills"></a>
+          
           <h2 className="section-heading">Technical Skills</h2>
             <h2 className="section-quote">"What really matters, is the depth of your heart and the strength of your character"</h2>
             <hr/>
@@ -110,8 +111,12 @@ const Skills = () => {
             </Col>
           </Row>
           </Col>
+          
+          <a name="workex"></a>
         </Row>
           
+        </div>
+        
         </div>
     )
 }

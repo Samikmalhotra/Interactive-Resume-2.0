@@ -12,20 +12,26 @@ the same respect as that of a CEO"</h2>
             <hr/>  
             <Row>
                 <Col lg={8} md={8}>
-                    <Row > 
+                    <Row className="achievement-row"> 
                         <Col lg={4} xs={4}>
                             <div className="achievement-div">
                                 <center><i class="fas fa-trophy fa-7x"></i></center>
+                                <h3>Winner</h3>
+                                <h5>Microsoft Learning Student Chapter Hackathon</h5>
                             </div>
                         </Col>
                         <Col lg={4} xs={4}>
                         <div className="achievement-div">
-                        <center><i class="fas fa-medal fa-7x"></i></center>
+                        <center><i class="fas fa-award fa-7x"></i></center>
+                            <h3>Top 10</h3>
+                            <h5>Bennett University Hackathon</h5>
                         </div>
                         </Col>
                         <Col lg={4} xs={4}>
                         <div className="achievement-div">
                         <center><i class="fas fa-award fa-7x"></i></center>
+                            <h3>Top 10</h3>
+                            <h5>Hackowasp</h5>
                         </div>
                         </Col>
 

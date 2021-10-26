@@ -6,16 +6,33 @@
 .achievement-div{
     padding: 5%;
     padding-top:10%;
-    min-height: 30vh;
+    height: 100%;
     margin-top: 13vh;
     transition: all 0.4s ease;
     border-radius: 20px;
-    filter: drop-shadow(8px 8px 8px black)
+    filter: drop-shadow(8px 8px 8px black);
+    padding-bottom: 100%;
+    margin-bottom: -100%;
 }
+/* .achievement-div:first-child{
+    min-height: 30vh;
+} */
 .achievement-div:hover{
     background-color: #e94560;
 }
 
-.fa-7x:hover{
-    
+.fa-7x{
+    margin-bottom: 10%;
+}
+.achievement-row{
+    min-height: 10vh;
+    display: flex;
+    height: 10vh;
+}
+/* .achievement-row .col-lg-4:first-child{
+    min-height: 30vh;
+} */
+.achievement-row .col-lg-4{
+    flex: 1 !important;
+    height: 10vh;
 }
