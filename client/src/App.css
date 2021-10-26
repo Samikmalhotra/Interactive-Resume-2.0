@@ -196,3 +196,8 @@ body {
   text-decoration: none;
   color: white;
 }
+button:hover{
+  background-color: #e94560;
+  transform: translateY(-5px) !important;
+  transition: all 0.5s ease-in-out;
+}

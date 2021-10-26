@@ -23,8 +23,31 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
 
     <title>React App</title>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<script type='text/javascript' src='loadImg.js'></script>
+<script type='text/javascript'>
+    $(function(){
+        $('img').imgPreload()
+    })
+</script>
+<style>
+  #loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
   </head>
-  <body>
+  <body onload="loadfun()">
+    <div id = "loading"></div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
@@ -38,5 +61,11 @@
 <script
   src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
   crossorigin></script>
+  <script>
+    var load = document.getElementById("loading");
+    function loadfun(){
+      load.style.display = "none";
+    }
+  </script>
   </body>
 </html>
