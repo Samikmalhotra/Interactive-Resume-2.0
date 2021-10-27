@@ -23,11 +23,10 @@
 .side-text-skills{
     position: absolute;
     transform: rotate(90deg);
-    right:-13rem;
-    top: 15rem;
-    font-size: 11rem;
+    right:-9rem;
+    top: 17rem;
+    font-size: 7.8rem;
     font-weight: 750;
     color: #46466d;
-    z-index: -1;
     text-transform: uppercase;
   }

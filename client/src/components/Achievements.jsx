@@ -5,6 +5,8 @@ import '../css/achievement.css'
 const Achievements = () => {
     return (
         <Fragment>
+                        <p className="side-text-achievements">Triumphs</p>
+
             <a name = "achievements"></a>
             <h2 className="section-heading">Achievements</h2>
             <h2 className="section-quote">"I was raised to treat the janitor with

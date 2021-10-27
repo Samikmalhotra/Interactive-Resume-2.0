@@ -36,12 +36,16 @@ a:hover {
 }
 .side-text-projects{
   position: absolute;
-  transform: rotate(-90deg);
-  left:-15rem;
+  transform: rotate(90deg);
+  right:-15.5rem;
   top: 17rem;
   font-size: 7.8rem;
   font-weight: 750;
   color: #46466d;
   z-index: -1;
   text-transform: uppercase;
+}
+.slick-prev::before, .slick-next::before {
+  font-size: 2.3rem !important;
+  color: #fff !important; 
 }
