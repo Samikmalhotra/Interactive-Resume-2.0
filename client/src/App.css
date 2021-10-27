@@ -208,10 +208,10 @@ button:hover{
 .profile-social-icon{
   padding-top: 10%;
   font-size: 3rem;
-  margin: 10% 1.7%; 
+  margin: 2% 1.7%; 
 }
 .profile-social-icon:hover{
-  transform: translateY(-15px) !important;
+  transform: translateY(-5px) !important;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -219,7 +219,7 @@ button:hover{
   margin-left: 0;
 }
 .profile-social-icon-row{
-  margin-top: 35vh !important;
+  margin-top: 2vh !important;
 }
 .profile-btn{
   background-color: #e94560;

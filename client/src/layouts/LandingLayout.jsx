@@ -90,11 +90,11 @@ const LandingLayout = () => (
                       <Container>
         <p className="hello-world">Hello World! My name is</p>
         <h2 className='intro-name'>Samik Malhotra</h2>
-        <h2 className='intro-tagline'><ReactTypingEffect speed={80} eraseSpeed={80} typingDelay={1000} eraseDelay={2000} text={["I love learning new things!", "I am a MERN Stack Developer"]}></ReactTypingEffect></h2>
+        <h2 className='intro-tagline'><ReactTypingEffect speed={40} eraseSpeed={40} typingDelay={400} eraseDelay={2000} text={["I love learning new things!", "I am a MERN Stack Developer"]}></ReactTypingEffect></h2>
         <p className='profile-social-icon-row'>
-        <i class="devicon-github-original profile-social-icon"></i>
-        <i class="devicon-linkedin-plain profile-social-icon"></i>
-        <i class="devicon-twitter-original profile-social-icon"></i>
+        <i class="fab fa-github-square profile-social-icon"></i>
+        <i class="fab fa-linkedin profile-social-icon"></i>
+        <i class="fab fa-twitter-square profile-social-icon"></i>
 
         </p>
         <a href="https://drive.google.com/file/d/1lEj87l-_Mjjs87wtpFoduZreTCxgZmBK/view?usp=sharing" target="_blank">
