@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import {Row, Col} from 'react-bootstrap'
 import '../css/skills.css'
 import dev from '../img/Programming-bro.svg'
 const Skills = () => {
     return (
-      <div>
+      <Fragment>
         <div className="skills">
-          
+        <p className="side-text-skills">Skills</p>
           <h2 className="section-heading">Technical Skills</h2>
             <h2 className="section-quote">"What really matters, is the depth of your heart and the strength of your character"</h2>
             <hr/>
@@ -117,7 +117,7 @@ const Skills = () => {
           
         </div>
         
-        </div>
+        </Fragment>
     )
 }
 
