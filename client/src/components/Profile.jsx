@@ -9,6 +9,7 @@ const Profile = () => {
     return (
         <Fragment>
           <a name="profile"></a>
+          <p className='side-text-profile'>PROFILE</p>
           <h2 className="section-heading">About Me</h2>
           <h3 className="section-quote">"No Pressure, No Diamonds"</h3>
           <hr/>

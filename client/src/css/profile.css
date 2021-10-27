@@ -10,3 +10,12 @@
     /* bottom: 18rem; */
     border: 5px solid #E94560;
 }
+.side-text-profile{
+    position: absolute;
+    transform: rotate(90deg);
+    right:-16.75rem;
+    top: 15rem;
+    font-size: 11rem;
+    font-weight: 750;
+    color: #553c97d4;
+}

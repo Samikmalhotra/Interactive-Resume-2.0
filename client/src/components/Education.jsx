@@ -22,7 +22,7 @@ const Education = () => {
         </Col>
         <Col xs={8} className="education-degree">
           <p className="degree-name">Bachelor of Engineering (B.E.) - Computer Science and Business Systems </p>
-          <p className="degree-location"><i class="fa fa-map-marker"></i>
+          <p className="degree-location"><i class="fa fa-map-marker-alt"></i>
          Patiala, Punjab, India</p>
         </Col>
       </Row>
@@ -33,7 +33,7 @@ const Education = () => {
         </Col>
         <Col xs={8} className="education-degree">
           <p className="degree-name">High School </p>
-          <p className="degree-location"><i class="fa fa-map-marker"></i>
+          <p className="degree-location"><i class="fa fa-map-marker-alt"></i>
          Delhi, India</p>
         </Col>
       </Row>
@@ -45,7 +45,7 @@ const Education = () => {
         </Col>
         <Col xs={8} className="education-degree">
           <p className="degree-name">Middle School </p>
-          <p className="degree-location"><i class="fa fa-map-marker"></i>
+          <p className="degree-location"><i class="fa fa-map-marker-alt"></i>
           Bangkok, Thailand</p>
         </Col>
       </Row>
@@ -57,7 +57,7 @@ const Education = () => {
         </Col>
         <Col xs={8} className="education-degree">
           <p className="degree-name">Elementary School </p>
-          <p className="degree-location"><i class="fa fa-map-marker"></i>
+          <p className="degree-location"><i class="fa fa-map-marker-alt"></i>
           Delhi, India</p>
           
 
