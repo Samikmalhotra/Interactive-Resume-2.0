@@ -19,6 +19,7 @@ const Projects = () => {
       };
     return (
         <Fragment>
+            <p className="side-text-projects">Projects</p>
             <a name="education"></a>
             <a name="projects"></a>
             <h2 className="section-heading">Projects</h2>

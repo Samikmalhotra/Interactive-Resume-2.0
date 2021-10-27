@@ -34,3 +34,14 @@ a {
 a:hover {
   background-color: transparent;
 }
+.side-text-projects{
+  position: absolute;
+  transform: rotate(-90deg);
+  left:-15rem;
+  top: 17rem;
+  font-size: 7.8rem;
+  font-weight: 750;
+  color: #46466d;
+  z-index: -1;
+  text-transform: uppercase;
+}
