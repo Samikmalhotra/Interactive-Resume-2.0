@@ -48,6 +48,10 @@ const Sticky2Styled = styled.div`
 `;
 
 const LandingLayout = () => (
+  <Fragment>
+    <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
   <Sticky2Styled>
     <Controller>
       <div>
@@ -92,9 +96,10 @@ const LandingLayout = () => (
         <h2 className='intro-name'>Samik Malhotra</h2>
         <h2 className='intro-tagline'><ReactTypingEffect speed={40} eraseSpeed={40} typingDelay={400} eraseDelay={2000} text={["I love learning new things!", "I am a MERN Stack Developer"]}></ReactTypingEffect></h2>
         <p className='profile-social-icon-row'>
-        <i class="fab fa-github-square profile-social-icon"></i>
-        <i class="fab fa-linkedin profile-social-icon"></i>
-        <i class="fab fa-twitter-square profile-social-icon"></i>
+       
+        <a href=" https://github.com/Samikmalhotra" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square profile-social-icon"></i></a>
+        <a href="https://www.linkedin.com/in/samik-malhotra-51279a17b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin profile-social-icon"></i></a>
+        <a href="https://twitter.com/samikmalhotra" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square profile-social-icon"></i></a>
 
         </p>
         <a href="https://drive.google.com/file/d/1lEj87l-_Mjjs87wtpFoduZreTCxgZmBK/view?usp=sharing" target="_blank">
@@ -122,6 +127,7 @@ const LandingLayout = () => (
       </div>
     </Controller>
   </Sticky2Styled>
+  </Fragment>
 );
 
 export default LandingLayout;

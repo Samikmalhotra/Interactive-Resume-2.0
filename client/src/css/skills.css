@@ -30,3 +30,19 @@
     color: #46466d;
     text-transform: uppercase;
   }
+/* .skill-img-col{
+    display: none;
+} */
+
+@media (max-width: 992px){
+    .skill-img-col{
+        display: none !important;
+    }
+    .devicon{
+        font-size: 2.5rem;
+        filter: drop-shadow(8px 8px 10px black);
+    }
+    .skills .col-lg-2{
+        min-height: 2vh !important;
+    }
+}

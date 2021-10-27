@@ -7,6 +7,10 @@ import contact from '../img/Mail sent-amico.svg'
 import '../css/footer.css'
 
 const Footer = () => {
+  const submitHandler = (e) => {
+    e.preventDefault()
+    console.log('Form submitted')
+  }
     return (
         <Fragment>
             <a name="footer"></a>
@@ -22,7 +26,7 @@ const Footer = () => {
                 </Col>
                 <Col>
                 <div className="contact-form">
-                <Form name="Contact" method="POST" data-netlify="true">
+                <Form name="Contact" method="POST" netlify onSubmit={submitHandler}>
                 <Form.Group className="mb-3" >
     <Form.Label>Name</Form.Label>
     <Form.Control type="text" placeholder="Enter name" />
