@@ -6,9 +6,10 @@ import project from '../img/Project Stages-bro.svg'
 const Workex = () => {
     return (
         <Fragment>
+            <p className="side-text-workex">Experience</p>
             <h2 className="section-heading">Experience & Positions of Responsibility</h2>
             <h2 className="section-quote">"Every experience makes you grow"</h2>
-            <hr/>
+            <hr className="hr-workex"/>
 
             <Row>
               <Col lg={8} md={12} sm={12} xs={12}>

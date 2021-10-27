@@ -164,3 +164,21 @@ blockquote {
   margin-top: 15%;
   margin-right: 15%;
 }
+.side-text-workex{
+  position: absolute;
+  transform: rotate(90deg);
+  right:-18rem;
+  top: 17rem;
+  font-size: 7.8rem;
+  font-weight: 750;
+  color: #46466d;
+  z-index: -1;
+  text-transform: uppercase;
+}
+.hr-workex{
+  width: 65%;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
