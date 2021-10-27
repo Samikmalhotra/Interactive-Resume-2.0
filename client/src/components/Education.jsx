@@ -7,7 +7,7 @@ import learning from '../img/Learning-bro.svg'
 const Education = () => {
     return (
         <Fragment>
-        
+        <p className="side-text-education">Education</p>
         <img src={learning} className='learning' alt='learning'/>
         <a name="skills"></a>
         <div className='education'>

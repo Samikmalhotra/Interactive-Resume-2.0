@@ -26,3 +26,14 @@
   color: #e94560;
   padding-right: 5px;
 }
+.side-text-education{
+  position: absolute;
+  transform: rotate(90deg);
+  right:-18.8rem;
+  top: 17rem;
+  font-size: 7.8rem;
+  font-weight: 750;
+  color: #46466d;
+  z-index: -1;
+  text-transform: uppercase;
+}
