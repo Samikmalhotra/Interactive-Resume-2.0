@@ -26,18 +26,18 @@ const Footer = () => {
                 </Col>
                 <Col>
                 <div className="contact-form">
-                <Form name="Contact" method="POST" netlify onSubmit={submitHandler}>
-                <Form.Group className="mb-3" >
+                <Form name="Contact" method="POST" netlify onSubmit={submitHandler} className='contact-form-form'>
+                <Form.Group className="mb-2" >
     <Form.Label>Name</Form.Label>
     <Form.Control type="text" placeholder="Enter name" />
   </Form.Group>
-  <Form.Group className="mb-3" >
+  <Form.Group className="mb-2" >
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
   </Form.Group>
-  <Form.Group className="mb-3" >
+  <Form.Group className="mb-2" >
     <Form.Label>Message</Form.Label>
-    <Form.Control as="textarea" rows={5} type="text" placeholder="Enter message" />
+    <Form.Control as="textarea" rows={4} type="text" placeholder="Enter message" />
   </Form.Group>
   <center>
   <Button type="submit">

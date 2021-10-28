@@ -39,7 +39,7 @@
 .side-text-achievements{
     position: absolute;
     transform: rotate(90deg);
-    right:-17rem;
+    right:-17vw;
     top: 17rem;
     font-size: 8.15vw;
     font-weight: 750;

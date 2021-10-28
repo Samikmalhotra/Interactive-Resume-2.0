@@ -13,7 +13,7 @@
 .side-text-profile{
     position: absolute;
     transform: rotate(90deg);
-    right:-12rem;
+    right:-12vw;
     top: 17rem;
     font-size: 16.35vh;
     font-weight: 750;

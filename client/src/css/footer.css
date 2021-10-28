@@ -1,7 +1,7 @@
 .contact-form{
     width: 85%;
-    padding: 5%;
-    margin: auto;
+    padding: 2.5% 5%;
+    margin: 1% auto !important;
     border: 2px solid #E94560;
     margin-top: 5%;
     text-align: left;
@@ -33,7 +33,7 @@ bold{
 .side-text-contact{
     position: absolute;
     transform: rotate(90deg);
-    right:-15rem;
+    right:-15vw;
     top: 17rem;
     font-size: 16.35vh;
     font-weight: 750;
@@ -49,4 +49,7 @@ bold{
     .contact-form{
         margin-top: 0;
     }
+}
+.contact-form-form{
+    margin: 0;
 }
