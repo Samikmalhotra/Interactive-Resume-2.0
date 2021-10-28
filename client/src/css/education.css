@@ -42,4 +42,10 @@
   .learning{
     display: none;
   }
+  .institute-name, .degree-name{
+    font-size: 0.75rem;
+  }
+  .degree-location, .time-spent{
+    font-size: 0.6rem;
+  }
 }
