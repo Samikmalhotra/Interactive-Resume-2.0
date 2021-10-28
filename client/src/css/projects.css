@@ -49,6 +49,18 @@ a:hover {
   font-size: 2.3rem !important;
   color: #fff !important; 
 }
+.project-item span{
+  margin: 0 10px;
+  color: #e94560;
+  transition: all 0.25s ease;
+}
+.project-item span:first-child{
+  margin-left: 0;
+}
+.project-item:hover span{
+  color: black;
+}
+
 @media (max-width: 768px) {
   .projects-col{
     display: none;

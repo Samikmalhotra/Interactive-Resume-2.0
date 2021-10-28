@@ -5,18 +5,31 @@ import '../css/projects.css'
 import {Button} from '@material-ui/core'
 import project from '../img/Portfolio Update-bro.svg'
 import Slider from "react-slick";
+import useWindowDimensions from '../utils/useWindowDimensions'
 
 const Projects = () => {
-    const settings = {
+    const settings1 = {
         dots: true,
         autoplay: true,
         infinite: true,
         slidesToShow: 2,
+        slidesToScroll: 2,
+        speed: 300,
+        autoplaySpeed: 2000,
+        pauseOnHover: true
+      };
+      const settings2 = {
+        dots: true,
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 1,
         slidesToScroll: 1,
         speed: 300,
         autoplaySpeed: 2000,
         pauseOnHover: true
       };
+    const {height,width} = useWindowDimensions();
+    const settings = width > 772 ? settings1 : settings2;
     return (
         <Fragment>
             <p className="side-text-projects">Projects</p>
@@ -44,7 +57,7 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>Microservices</h4>
-                    <p>Nextjs, Nodejs, Express, MongoDB, Redis, NATS Streaming Server, Docker, Kubernetes, Nginx, Typescript</p>
+                    <p><span>Nextjs</span><span> Nodejs</span><span> Express</span><span> MongoDB</span><span> Redis</span><span> NATS Streaming Server</span><span> Docker</span><span> Kubernetes</span><span> Nginx</span><span> Typescript</span></p>
                     <hr/>
                     </div>
                 </Col>
@@ -52,7 +65,7 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>NPM library</h4>
-                    <p>NATS Streaming Server, Nodejs, Typescript</p>
+                    <p><span>NATS Streaming Server</span><span> Nodejs </span><span>Typescript</span></p>
                     <hr/>
                     <h6></h6>
                     </div>
@@ -61,7 +74,7 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>Social Media Website</h4>
-                    <p>Reactjs, MongoDB, Express, Redux, Nodejs</p>
+                    <p><span>Reactjs</span><span>MongoDB</span><span> Express</span><span> Redux</span><span> Nodejs</span></p>
                     <hr/>
                     </div>
                 </Col>
@@ -69,7 +82,7 @@ is managed nothing else can be managed"</h2>
                     <div className='project-item'>
                     <i></i>
                     <h4>Ecommerce Website</h4>
-                    <p>Reactjs, MongoDB, Express, Redux, Nodejs</p>
+                    <p><span>Reactjs</span><span> MongoDB</span><span> Express</span><span> Redux</span><span> Nodejs</span></p>
                     <hr/>
                     </div>
                 </Col>
