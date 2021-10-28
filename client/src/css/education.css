@@ -7,13 +7,13 @@
 .institute-name,
 .degree-name {
   font-weight: bold;
-  font-size: 1.35rem;
+  font-size: 1.4vw;
   margin-bottom: 0;
 }
 .time-spent,
 .degree-location {
   font-style: italic;
-  font-size: 1.15rem;
+  font-size: 1.2vw;
 }
 
 .learning {
@@ -31,9 +31,15 @@
   transform: rotate(90deg);
   right:-18.8rem;
   top: 17rem;
-  font-size: 16.35vh;
+  font-size: 8.15vw;
   font-weight: 750;
   color: #46466d;
   z-index: -1;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .learning{
+    display: none;
+  }
 }

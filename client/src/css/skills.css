@@ -46,3 +46,16 @@
         min-height: 2vh !important;
     }
 }
+
+
+@media (max-width: 768px){
+    .devicon{
+        font-size: 1.8rem;
+    }
+    .section-heading{
+        font-size: 1.9rem;
+    }
+    .section-quote{
+        font-size: 1.2rem;
+    }
+}

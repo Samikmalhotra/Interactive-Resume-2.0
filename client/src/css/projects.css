@@ -20,7 +20,7 @@
 .project-btn {
   background-color: #e94560 !important;
   color: black;
-  font-size: 1.2rem !important;
+  font-size: 1.2rem ;
   margin-top: 2vh !important;
   filter: drop-shadow(8px 8px 8px black);
 }
@@ -48,4 +48,9 @@ a:hover {
 .slick-prev::before, .slick-next::before {
   font-size: 2.3rem !important;
   color: #fff !important; 
+}
+@media (max-width: 768px) {
+  .projects-col{
+    display: none;
+  }
 }

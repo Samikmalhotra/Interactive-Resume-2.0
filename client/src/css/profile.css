@@ -20,3 +20,11 @@
     color: #46466d;
     text-transform: uppercase;
 }
+@media (max-width: 768px) {
+    .profile-text{
+        font-size: 0.9rem;
+    }
+    .profile-photo{
+        display: none;
+    }
+}

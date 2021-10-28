@@ -43,7 +43,7 @@ body {
 .name-title h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
-  font-size: 6rem !important;
+  font-size: 7vw !important;
   padding-top: 0;
   margin: 0;
   color: white;
@@ -82,17 +82,17 @@ body {
 }
 .hello-world {
   padding-top: 10vh;
-  font-size: 1.6rem;
+  font-size: 2vw;
   margin-bottom: 0;
 }
 .intro-name {
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: bold;
   color: #e94560;
   text-shadow: 8px 8px 8px black;
 }
 .intro-tagline {
-  font-size: 5rem;
+  font-size: 5vw;
 }
 .intro-text {
   font-size: 1.4rem;
@@ -207,7 +207,7 @@ button:hover{
 }
 .profile-social-icon{
   padding-top: 10%;
-  font-size: 3rem;
+  font-size: 3.5vw;
   margin: 2% 1.7%; 
   color: #fff !important;
 }
@@ -228,7 +228,7 @@ button:hover{
   border: none;
   padding: 10px 40px;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1.4vw !important;
   margin-top: 10%;
   margin-bottom: 10%;
   cursor: pointer;
@@ -248,4 +248,13 @@ button:hover{
   height: 2px;
   background: #e94560;
   width: 0%;
+}
+
+@media (max-width: 768px) {
+ .side-text-profile, .side-text-workex, .side-text-skills, .side-text-education, .side-text-projects, .side-text-contact{
+    display: none;
+  }
+  .container-div{
+    width: 90%;
+  }
 }

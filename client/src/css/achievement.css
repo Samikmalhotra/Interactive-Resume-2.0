@@ -41,9 +41,15 @@
     transform: rotate(90deg);
     right:-17rem;
     top: 17rem;
-    font-size: 16.35vh;
+    font-size: 8.15vw;
     font-weight: 750;
     color: #46466d;
     z-index: -1;
     text-transform: uppercase;
   }
+
+@media (max-width: 768px){
+    .achievement-col{
+        display: none;
+    }
+}

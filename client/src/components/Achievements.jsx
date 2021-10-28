@@ -39,7 +39,7 @@ the same respect as that of a CEO"</h2>
 
                     </Row>
                 </Col>
-                <Col>
+                <Col className='achievement-col'>
                 <img src={achievement} alt="achievement" className="achievement-img"/>
                 </Col>
             </Row>

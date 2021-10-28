@@ -27,7 +27,7 @@ const Projects = () => {
 is managed nothing else can be managed"</h2>
             <hr/> 
             <Row>
-                <Col lg={4} md={4} xs={0}>
+                <Col lg={4} md={4} className='projects-col'>
                     <img src={project} alt="project-img"/>
                 </Col>
                 <Col lg={8} md={8} xs={12}>
